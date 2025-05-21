@@ -22,11 +22,11 @@ void checkPasswordStrength(char password[]) {
     if (length < 8) {
         printf("Weak: Password should be at least 8 characters long.\n");
     } else if (hasUpper && hasLower && hasDigit && hasSpecial) {
-        printf("Strong: Your password is secure!\n");
+        printf("Strong: Your password is secure.\n");
     } else if ((hasUpper + hasLower + hasDigit + hasSpecial) >= 3) {
-        printf("Moderate: Consider adding more variety to your password.\n");
+        printf("Moderate: Consider adding more variety 2 ur password.\n");
     } else {
-        printf("Weak: Your password needs more diversity.\n");
+        printf("Weak: Your password needs more Heterogeneity.\n");
     }
 }
 
@@ -34,8 +34,8 @@ int main() {
     char password[100];
 
     
-    printf("Welcome to the Password Strength Checker!\n");
-    printf("Enter your password: ");
+    printf("Welcome to the Password Strength Checker.\n");
+    printf("Enter your password:");
     scanf("%s", password);
 
     
