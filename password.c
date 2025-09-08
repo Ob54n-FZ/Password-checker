@@ -24,7 +24,7 @@ void checkPasswordStrength(char password[]) {
     } else if (hasUpper && hasLower && hasDigit && hasSpecial) {
         printf("Strong: Your password is secure.\n");
     } else if ((hasUpper + hasLower + hasDigit + hasSpecial) >= 3) {
-        printf("Moderate: Consider adding more variety 2 ur password.\n");
+        printf("Moderate: Consider adding more variety to your password.\n");
     } else {
         printf("Weak: Your password needs more Heterogeneity.\n");
     }
